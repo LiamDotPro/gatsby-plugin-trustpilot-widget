@@ -26,14 +26,14 @@ export default class TrustpilotContainer extends React.Component {
   }
 
   render() {
-    const { theme, height, width, reference, template, business, username } = this.props
+    const { theme, height, width, reference, template, business, username, defaultText } = this.props
     const language = this.props.language.toLowerCase()
     const culture = this.props.culture.toUpperCase()
     const domain = language === "en" ? "www" : language
 
     return (
       <div ref={reference} className="trustpilot-widget" data-locale={`${language}-${culture}`} data-template-id={template} data-businessunit-id={business} data-style-height={height} data-style-width={width} data-theme={theme}>
-        <a href={`https://${domain}.trustpilot.com/review/${username}`} target="_blank" rel="noopener">Trustpilot</a>
+        <a href={`https://${domain}.trustpilot.com/review/${username}`} target="_blank" rel="noopener noreferrer">{defaultText}</a>
       </div>
     )
   }

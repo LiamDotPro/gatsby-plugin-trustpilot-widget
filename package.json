@@ -1,18 +1,14 @@
 {
-  "name": "@pittica/gatsby-plugin-trustpilot-widget",
+  "name": "gatsby-plugin-trustpilot-widget-seo",
   "private": false,
   "description": "Trustpilot widget for GatsbyJS.",
-  "version": "1.0.4",
-  "author": {
-    "name": "Lucio Benini",
-    "email": "info@pittica.com",
-    "url": "https://pittica.com"
-  },
+  "version": "0.0.2",
+  "author": "Liam Read <liam@liam.pro> (liam.pro)",
   "bugs": {
-    "url": "https://github.com/pittica/gatsby-plugin-trustpilot-widget/issues"
+    "url": "https://github.com/liamdotpro/gatsby-plugin-trustpilot-widget/issues"
   },
   "deprecated": false,
-  "homepage": "https://github.com/pittica/gatsby-plugin-trustpilot-widget",
+  "homepage": "https://github.com/liamdotpro/gatsby-plugin-trustpilot-widget",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -31,5 +27,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pittica/gatsby-plugin-trustpilot-widget.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
